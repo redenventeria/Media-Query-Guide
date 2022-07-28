@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 1.5rem;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url(./Alegreya/Alegreya-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url(./Alegreya_Sans/AlegreyaSans-Regular.ttf);
+}
+
+h1 {
+    font-family: 'Alegreya';
+}
+
+header>h1 {
+    margin: auto;
+}
+
+p {
+    font-family: 'Alegreya Sans';
+}
+
+header {
+    width: auto;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+header>h1 {
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+main>p {
+    margin-left: 0.87em;
+    margin-top: 0.8em;
+    margin-right: 2em;
+}
+
+main>h1 {
+    margin-right: 2em;
+}
+
+main {
+    width: min(32em, 100%);
+    margin: auto;
+    padding: 1em;
+}
